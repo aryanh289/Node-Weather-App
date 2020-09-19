@@ -1,0 +1,18 @@
+{
+  "name": "weather-app-frontend",
+  "version": "1.0.0",
+  "description": "live weather forcast application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Aryan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
