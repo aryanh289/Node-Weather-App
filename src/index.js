@@ -10,6 +10,7 @@ const { clear, time } = require('console')
 const stat = path.join(__dirname,'../static')
 const myviews = path.join(__dirname,'/templates/views')
 const app = express()
+const port = process.env.PORT || 5000
 
 app.set('view engine', 'hbs')
 app.set('views',myviews)
@@ -49,6 +50,6 @@ app.get('',(req,res) => {
     callu()
 })
 
-app.listen(5000,() => {
-    console.log('App has started on port 5000')
+app.listen(port,() => {
+    console.log('App has started on port ' + port)
 })
